@@ -1,0 +1,17 @@
+body {
+    font-family: Roboto;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: hotpink
+}
+
+
+.box-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-headers {
+    padding: 20px;
+    background: #F1F1F1;
+}
