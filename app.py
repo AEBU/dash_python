@@ -26,9 +26,9 @@ app = dash.Dash(
 
 # FASE 2: CARGA DE DATOS
 # Ventas Detalles
-df_ventas = pd.read_excel('Ventas.xlsx', sheet_name='Detalle')
+df_ventas = pd.read_excel('data/Ventas.xlsx', sheet_name='Detalle')
 # Ventas Acumuladas
-df_ventas_acum = pd.read_excel('Ventas.xlsx', sheet_name='Acumulado')
+df_ventas_acum = pd.read_excel('data/Ventas.xlsx', sheet_name='Acumulado')
 
 # FASE 3: CREACIÓN GRÁFICO GEOGRÁFICO
 mapbox_access_token = TOKEN_MAPBOX
